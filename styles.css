@@ -1,0 +1,91 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 2px;
+}
+.type:after {
+    content: none !important; 
+}
+
+.card{
+    background: rgb(251,243,168);
+    background: linear-gradient(187deg, rgba(251,243,168,1) 6%, rgba(255,249,129,1) 35%, rgba(224,218,29,1) 100%);
+    width: 300px;
+    height: 450px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.pict{
+    background-image: url("https://img.freepik.com/free-vector/gradient-zoom-effect-background_23-2149717745.jpg?t=st=1732496116~exp=1732499716~hmac=d548b2b87fb2c5782a347102a50cc0abde5599755639ba6ff70cb5f22ac74a0b&w=1060");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    border-bottom-left-radius:0 ;
+    border-bottom-right-radius:0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    flex-direction: column;
+    background-color: rgb(235, 239, 212);
+    border-radius: 5px;
+    border-top-left-radius:0 ;
+    border-top-right-radius:0 ;
+}
+.flex{
+    padding-block: 10px;
+    height: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #d19e1d;
+    background: -webkit-linear-gradient(to right, #d19e1d, #ffd86e, #e3a812);
+    background: linear-gradient(to right, #d19e1d, #ffd86e, #e3a812);
+    padding-inline: 5px;
+}
+#types{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.type{
+    font-size: 6px !important;
+}
+.name{
+    font-size: 12px;
+}
+.stats{
+    padding: 5px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+input{
+    width: 240px;
+    border: none;
+    outline: 2px solid ;
+    border-radius: 2px;
+    margin: 0;
+    padding: 2px;
+}
+button{
+    width: 60px;
+    background-color: #e3a812;
+    border: none;
+    outline: 2px solid;
+    border-radius: 2px;
+}
