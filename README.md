@@ -6,7 +6,7 @@ This project is a Pokémon search tool built using JavaScript and the [PokeAPI](
 ![Project Screenshot](https://raw.githubusercontent.com/izzel24/Pokemon-Search/main/screenshot_project.png)
 
 ## Live Demo 🚀
-Check out the live demo of the project here: [Pokémon Search](https://izzel24.github.io/Pokemon-Search/)
+Check out the live demo of the project here: [Pokémon Search](https://izzel24.github.io/pokemon-search/)
 
 ## How It Works 🔧
 1. **Search Input**: Enter the name of a Pokémon in the input field.
